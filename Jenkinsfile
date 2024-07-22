@@ -10,7 +10,7 @@ pipeline {
             }
         }
 
-         stage('Build') {
+         stage('BuilD') {
             steps {
                 bat "php index.php"
             }
