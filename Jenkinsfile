@@ -3,14 +3,14 @@ pipeline {
 
     stages {
 
-         stage('Checkout') {
+         stage('Checkout ') {
             steps {
                git branch: "main",url : "https://github.com/merahsamia/pipeline_testing.git"
 
             }
         }
 
-         stage('Build') {
+         stage('BuilD') {
             steps {
                 bat "php index.php"
             }
